@@ -1,0 +1,11 @@
+# Model environment (Apple silicon, MLX). Install with:
+#   uv venv mlx --python 3.12 && uv pip install --python mlx/bin/python -r requirements-mlx.txt
+#   uv pip install --python mlx/bin/python --no-deps -e .
+mlx==0.32.2
+mlx-lm==0.31.3
+transformers==5.17.0
+openai==3.16.2
+httpx==0.28.1
+huggingface-hub==1.32.0
+tqdm
+numpy

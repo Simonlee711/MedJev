@@ -1,0 +1,28 @@
+[project]
+name = "open-medjev"
+version = "0.1.0"
+description = "Open MedJev: zero-shot System-One (Jev) decisions for medical knowledge and EHR prediction"
+readme = "README.md"
+requires-python = ">=3.10"
+license = "MIT"
+dependencies = [
+    "datasets",
+    "httpx",
+    "matplotlib",
+    "numpy",
+    "pandas",
+    "polars",
+    "pyarrow",
+    "scikit-learn",
+    "scipy",
+    "tqdm",
+    "xgboost",
+]
+
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["medjev*"]
