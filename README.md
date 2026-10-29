@@ -121,3 +121,13 @@ hold individual-level, MIMIC-derived content. The models evaluated here are rese
 ## License
 
 Code: MIT (see `LICENSE`). MedJev weights: CC BY-NC 4.0 (see the model card). Each benchmark and model keeps its own license.
+
+## Citation
+```
+@article{lee2026medjev,
+  title={MedJev: Evaluating Zero-Shot System-One Decision Making in Medicine},
+  author={Lee, Simon A and Sha, Jiahang and Jeong, Moonseong and Pan, Yunbei and Chiang, Jeffrey N},
+  journal={arXiv preprint arXiv:2610.36006},
+  year={2026}
+}
+```
